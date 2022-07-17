@@ -209,12 +209,8 @@ h2,.info-title{
 
 /*gallery start here*/
 .gallery{
-  box-sizing: border-box;
   padding: 101px 0 92px 0;
   background-color: #273041;
-}
-.gallery-title{
-  padding: 101px 0 0 0;
 }
 .gallery-description{
   padding: 40px 0 70px 0;
@@ -231,6 +227,7 @@ h2,.info-title{
 .gallery-items{
   width: 77%;
   display: inline-block;
+  box-sizing:border-box;
 }
 .events-type{
   width: 100%;
@@ -251,10 +248,10 @@ h2,.info-title{
 }
 .gallery-item img{
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .gallery-item:nth-child(2),.gallery-item:nth-child(5){
-  padding: 0 3%;
+  padding: 0 2.5%;
 }
 
 
@@ -386,6 +383,7 @@ a{
 =================================*/ 
 
 /*media query starts*/
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
@@ -450,9 +448,6 @@ a{
 .gallery{
   padding: 101px 0 92px 0;
 }
-.gallery-title{
-  padding: 101px 0 0 0;
-}
 .gallery-description{
   padding: 40px 0 70px 0;
 }
@@ -475,9 +470,7 @@ a{
   padding: 0 0 31px 0;
   display: inline-block;
 }
-.mid{
-  margin: 0 2%;
-}
+
 
 
 
@@ -535,3 +528,441 @@ footer{
 }
 
 }  
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+  /*=================================
+    Header styling starts here
+  =================================*/
+  .hero-section{
+    width: 100%;
+  }
+  .navbar{
+    padding: 15px 0;
+  }
+  .logo{
+    width: 70%;
+    padding: 0 17px ;
+  }
+  
+  .company{
+    width: 54%;
+    padding: 200px 0;
+  }
+  
+  .description{
+    padding: 50px 0 45px;
+  }
+  .hero-btn{
+    padding: 20px 30px;
+  }
+  
+  
+  /*=================================
+    Header styling ends here
+  =================================*/  
+  
+  /*=================================
+    main styling starts here
+  =================================*/
+  /*info start here*/
+  .about{
+    padding: 101px 0 65px 0;
+  }
+  .info-title{
+    padding: 0 0 41px 0;
+  }
+  
+  .videos{
+    padding: 0 0 91px 0;
+  }
+  .video1,.video2{
+    width:48%;
+    display: inline-block;
+  }
+  .video1{
+    padding: 0 3% 0 0;
+  }
+  .figcaption{
+    padding: 45px 0;
+  }
+  /*info ends here*/
+  
+  /*gallery start here*/
+  .gallery{
+    padding: 51px 0 92px 0;
+  }
+  .gallery-description{
+    padding: 40px 0 70px 0;
+  }
+  .events{
+    width:20% ;
+    padding: 0 2% 100px 0;
+  }
+  .gallery-items{
+    width: 72%;
+  }
+  .events-type{
+    width:100%;
+  }
+  
+
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5){
+    padding: 0;
+    margin: 0;
+  }
+  .gallery-item:nth-child(5){
+    padding: 0 4% 15px 0;
+  }
+  .gallery-item{
+    width: 45%;
+    padding: 0 4% 15px 0;
+    display: inline-block;
+  }
+  
+  
+  /*gallery ends here*/
+  
+  /*popular start here*/
+  .popular{
+    padding: 100px 0 92px 0;
+  }
+  
+  .popular-description{
+    padding: 31px 0 66px 0;
+  }
+  .card{
+    width: 31%;
+    display: inline-block;
+    
+  }
+  .card:nth-child(2){
+    padding: 0 2%;
+  }
+  /*popular end here*/
+  /*=================================
+    main styling ends here
+  =================================*/
+  
+  /*=================================
+    footer styling starts here
+  =================================*/ 
+  footer{
+    padding: 101px 0 53px 0;
+  }
+  .locations{
+    width: 31%;
+    display: inline-block;
+  }
+  .locations:nth-child(2){
+    margin: 0 2%;
+  }
+  .country{
+    padding: 0 0 24px 0;
+  }
+  .location{
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  
+  .connect{
+    padding: 63px 0 10px 0;
+  }
+  .connect a{
+    margin:0 .9%;
+    display: inline-block;
+  }
+  
+  }  
+
+
+  /*media query for 480px starts here*/
+  @media only screen and (max-width: 480px) {
+
+    /*=================================
+      Header styling starts here
+    =================================*/
+    .title{
+      font-size: 12px;
+    }
+    .navbar{
+      padding: 15px 0;
+    }
+    .logo{
+      width: 60%;
+      padding: 0 17px ;
+    }
+    
+    .company{
+      width: 54%;
+      padding: 200px 0;
+    }
+    
+    .description{
+      padding: 50px 0 45px;
+    }
+    .hero-btn{
+      padding: 20px 30px;
+    }
+    
+    
+    /*=================================
+      Header styling ends here
+    =================================*/  
+    
+    /*=================================
+      main styling starts here
+    =================================*/
+    /*info start here*/
+    .about{
+      padding: 101px 0 65px 0;
+    }
+    .info-title{
+      padding: 0 0 41px 0;
+    }
+    
+    .videos{
+      padding: 0 0 91px 0;
+      text-align: center;
+    }
+    .video1,.video2{
+      width:90%;
+      padding: 20px 0;
+      display: inline-block;
+    }
+    .figcaption{
+      padding: 45px 0;
+    }
+    /*info ends here*/
+    
+    /*gallery start here*/
+    .gallery{
+      padding: 51px 0 92px 0;
+    }
+    .gallery-description{
+      padding: 40px 0 70px 0;
+    }
+    .events{
+      width:100% ;
+      padding: 0 2% 100px 0;
+    }
+    .gallery-items{
+      width: 100%;
+    }
+    .events-type{
+      width:100%;
+    }
+    .gallery-item{
+      width: 100%;
+      padding: 10px 0;
+      display: inline-block;
+    }
+  
+    .gallery-item:nth-child(2),.gallery-item:nth-child(5){
+      padding: 10px 0;
+    }
+  
+    
+    
+    /*gallery ends here*/
+    
+    /*popular start here*/
+    .popular{
+      padding: 100px 0 92px 0;
+    }
+    
+    .popular-description{
+      padding: 31px 0 66px 0;
+    }
+    .card{
+      width: 100%;
+      padding: 20px 0;
+      display: inline-block;
+      
+    }
+    .card:nth-child(2){
+      padding: 0;
+    }
+    /*popular end here*/
+    /*=================================
+      main styling ends here
+    =================================*/
+    
+    /*=================================
+      footer styling starts here
+    =================================*/ 
+    footer{
+      padding: 101px 0 53px 0;
+    }
+    .locations{
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+    }
+    .locations:nth-child(2){
+      margin: 0 2%;
+    }
+    .country{
+      padding: 0 0 24px 0;
+    }
+    .location{
+      width: 100%;
+      padding: 15px 0;
+    }
+    
+    
+    .connect{
+      padding: 63px 0 10px 0;
+    }
+    .connect a{
+      margin:0 .9%;
+      display: inline-block;
+    }
+    
+    }  
+
+  /*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
+
+  /*=================================
+    Header styling starts here
+  =================================*/
+  .title{
+    font-size: 12px;
+  }
+  .navbar{
+    padding: 15px 0;
+  }
+  .logo{
+    width: 60%;
+    padding: 0 17px ;
+  }
+  
+  .company{
+    width: 54%;
+    padding: 200px 0;
+  }
+  
+  .description{
+    padding: 50px 0 45px;
+  }
+  .hero-btn{
+    padding: 20px 30px;
+  }
+  
+  
+  /*=================================
+    Header styling ends here
+  =================================*/  
+  
+  /*=================================
+    main styling starts here
+  =================================*/
+  /*info start here*/
+  .about{
+    padding: 101px 0 65px 0;
+  }
+  .info-title{
+    padding: 0 0 41px 0;
+  }
+  
+  .videos{
+    padding: 0 0 91px 0;
+    text-align: center;
+  }
+  .video1,.video2{
+    width:90%;
+    padding: 20px 0;
+    display: inline-block;
+  }
+  .figcaption{
+    padding: 45px 0;
+  }
+  /*info ends here*/
+  
+  /*gallery start here*/
+  .gallery{
+    padding: 51px 0 92px 0;
+  }
+  .gallery-description{
+    padding: 40px 0 70px 0;
+  }
+  .events{
+    width:100% ;
+    padding: 0 2% 100px 0;
+  }
+  .gallery-items{
+    width: 100%;
+  }
+  .events-type{
+    width:100%;
+  }
+  .gallery-item{
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+  }
+
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5){
+    padding: 10px 0;
+  }
+
+  
+  
+  /*gallery ends here*/
+  
+  /*popular start here*/
+  .popular{
+    padding: 100px 0 92px 0;
+  }
+  
+  .popular-description{
+    padding: 31px 0 66px 0;
+  }
+  .card{
+    width: 100%;
+    padding: 20px 0;
+    display: inline-block;
+    
+  }
+  .card:nth-child(2){
+    padding: 0;
+  }
+  /*popular end here*/
+  /*=================================
+    main styling ends here
+  =================================*/
+  
+  /*=================================
+    footer styling starts here
+  =================================*/ 
+  footer{
+    padding: 101px 0 53px 0;
+  }
+  .locations{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .locations:nth-child(2){
+    margin: 0 2%;
+  }
+  .country{
+    padding: 0 0 24px 0;
+  }
+  .location{
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  
+  .connect{
+    padding: 63px 0 10px 0;
+  }
+  .connect a{
+    margin:0 .9%;
+    display: inline-block;
+  }
+  
+  }  
