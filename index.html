@@ -9,9 +9,8 @@
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Default style-shet is for 'media' type screen (color computer display).  -->
   <link rel="stylesheet" media="screen" href="assets/css/style.css" >
 </head>
 
@@ -20,44 +19,49 @@
   <div class="container">
     <!--header section start-->
     <header>
-      <nav class="navbar">
-        <h4 class="logo">Broadcast by <span>templated</span></h4>
-        <div class="menu">
-          <span class="menu">Menu</span>
+      <div class="hero-section">
+        <nav class="navbar">
+          <h4 class="logo"><a class="bold">Broadcast</a> by <a class="upper">templated</a></h4>
+          <a class="menu">Menu</a>
+        </nav>
+        <div class="wrapper flex">
+          <div class="company">
+            <h1 class="title">
+              This is Broadcast
+            </h1>
+            <p class="description">
+              Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus vitae libero in nulla iaculis
+              eleifend non sit amet nulla.
+            </p>
+            <a href="#FIXME" class="hero-btn btn" title="Dignissm">Dignissm</a>
+          </div>
         </div>
-      </nav>
+      </div>
+      
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-      <div class="hero-section">
-        <div class="wrapper">
-          <h1 class="title">
-            This is Broadcast
-          </h1>
-          <p class="description">
-            Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus vitae libero in nulla iaculis
-            eleifend non sit amet nulla.
-          </p>
-          <a href="#FIXME" class="hero-btn btn" title="Dignissm">Dignissm</a>
-        </div>
-      </div>
       <section>
         <div class="info">
           <div class="wrapper">
-            <h2 class="info-title">
-              Nam eu nisi non ante sodale
-            </h2>
-            <p class="info-description">
-              consectetur augue vivamus, vitae libero in nulla iaculis.
-            </p>
-            <div class="video">
-              <figure><img src="https://via.placeholder.com/565x404/0000FF/808080?text=concert" alt="video"></figure>
-              <figcaption>Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</figcaption>
-            </div>
-            <div class="video">
-              <figure><img src="https://via.placeholder.com/565x404/0000FF/808080?text=concert" alt="video"></figure>
-              <figcaption>Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</figcaption>
+           <div class="about">
+              <h2 class="info-title">
+                Nam eu nisi non ante sodale
+              </h2>
+              <p class="info-description">
+                consectetur augue vivamus, vitae libero in nulla iaculis consectetur augue vivamus.
+              </p>
+           </div>
+            <div class="videos">
+              <div class="video1">
+                <figure><img src="https://via.placeholder.com/565x330/0000FF/808080?text=concert" alt="video"></figure>
+                <p class="figcaption">Morbi eu purus eget urna interdum dignissim sed  consectetur augue </p>
+              </div>
+              <div class="video2">
+                <figure><img src="https://via.placeholder.com/565x330/0000FF/808080?text=concert" alt="video"></figure>
+                <p class="figcaption">Morbi eu purus eget urna interdum dignissim sed  consectetur augue </p>
+              </div>
             </div>
           </div>
         </div>
@@ -65,8 +69,8 @@
       <article>
         <div class="gallery">
           <div class="wrapper">
-            <div class="galley-info">
-              <h2 class="galley-title">
+            <div class="gallery-info">
+              <h2 class="gallery-title">
                 Etiam veroeros lorem
               </h2>
               <p class="gallery-description">
@@ -75,17 +79,17 @@
             </div>
             <div class="gallery-viewer">
               <ul class="events">
-                <li class="events-type">Deus vistigla tellium.</li>
+                <li class="events-type active">Deus vistigla tellium.</li>
                 <li class="events-type">Deus vistigla tellium.</li>
                 <li class="events-type">Deus vistigla tellium.</li>
               </ul>
-              <div class="gallery-items">
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
-                <figure class="gallery-item"><img src="https://via.placeholder.com/281x158/0000FF/808080?text=concert" alt="video"></figure>
+              <div class="gallery-items ">
+                <figure class="gallery-item "><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
+                <figure class="gallery-item mid"><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
+                <figure class="gallery-item "><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
+                <figure class="gallery-item"><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
+                <figure class="gallery-item mid"><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
+                <figure class="gallery-item"><img src="https://via.placeholder.com/293x163/0000FF/808080?text=concert" alt="video"></figure>
               </div>
             </div>
           </div>
@@ -103,16 +107,16 @@
             <div class="cards">
               <ul class="cards">
                 <li class="card">
-                  <figure><img src="https://via.placeholder.com/364x206/0000FF/808080?text=concert" alt="video"></figure>
-                  <figcaption>Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</figcaption>
+                  <figure><img src="https://via.placeholder.com/377x215/0000FF/808080?text=concert" alt="video"></figure>
+                  <p class="figcaption">Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</p>
+                </li>
+                <li class="card ">
+                  <figure><img src="https://via.placeholder.com/377x215/0000FF/808080?text=concert" alt="video"></figure>
+                  <p class="figcaption">Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</p>
                 </li>
                 <li class="card">
-                  <figure><img src="https://via.placeholder.com/364x206/0000FF/808080?text=concert" alt="video"></figure>
-                  <figcaption>Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</figcaption>
-                </li>
-                <li class="card">
-                  <figure><img src="https://via.placeholder.com/364x206/0000FF/808080?text=concert" alt="video"></figure>
-                  <figcaption>Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</figcaption>
+                  <figure><img src="https://via.placeholder.com/377x215/0000FF/808080?text=concert" alt="video"></figure>
+                  <p class="figcaption">Morbi eu purus eget urna interdum dignissim sed  consectetur augue vivamus</p>
                 </li>
               </ul>
             </div>
@@ -127,9 +131,33 @@
       <div class="wrapper">
         <div class="our-presence">
           <ul class="locations">
-            <h3 class="country">
-              Vestibullum
-            </h3>
+            <li class="location"> 
+              <p class="country">
+                Vestibullum
+              </p>  
+            </li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+          </ul>
+          <ul class="locations">
+            <li class="location"> 
+              <p class="country">
+                Vestibullum
+              </p>  
+            </li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+            <li class="location">cammondo gav center</li>
+          </ul>
+          <ul class="locations">
+            <li class="location"> 
+              <p class="country">
+                Vestibullum
+              </p>  
+            </li>
             <li class="location">cammondo gav center</li>
             <li class="location">cammondo gav center</li>
             <li class="location">cammondo gav center</li>
@@ -142,7 +170,7 @@
           <a href="FIXME" title="social media"><span class="icon insta">twitter</span></a>
           <a href="FIXME" title="social media"><span class="icon snapchat">twitter</span></a>
         </div>
-        <p class="copyright">&copy; Templated</p>
+        <p class="copyright">&copy;copyright <a>Templated</a></p>
       </div>
     </footer>
     <!--footer section end-->
