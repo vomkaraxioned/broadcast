@@ -107,6 +107,9 @@ li {
   display: flex;
   justify-content: center;
 }
+*{
+  font-family: 'Signika Negative', sans-serif;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -140,12 +143,12 @@ li {
 .title{
   color: #e5e5e5;
   font-size: 46px;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 .description{
   padding: 50px 0 45px;
-  color: #e5e5e5;
+  color: #b2b7bb;
   font-size: 17px;
   text-align: center;
 }
@@ -181,21 +184,21 @@ h2,.info-title{
   padding: 0 0 41px 0;
   text-align: center;
 }
-.info-decription{
-  color: #918d82;
+.info-description{
+  color: #777670;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 600;
 }
 .videos{
   padding: 0 0 91px 0;
 }
 .video1,.video2{
-  width:47%;
+  width:48%;
   display: inline-block;
   font-size: 17px;
 }
 .video1{
-  padding: 0 5% 0 0;
+  padding: 0 3% 0 0;
 }
 .figcaption{
   padding: 45px 0;
@@ -206,6 +209,7 @@ h2,.info-title{
 
 /*gallery start here*/
 .gallery{
+  box-sizing: border-box;
   padding: 101px 0 92px 0;
   background-color: #273041;
 }
@@ -218,20 +222,20 @@ h2,.info-title{
   font-size: 17px;
 }
 .events{
-  width:21% ;
+  width:20% ;
   padding: 0 0 100px 0;
+  margin: 0 1.9% 0 0;
   display: inline-block;
   overflow: hidden;
 }
 .gallery-items{
-  width: 76%;
-  padding: 0 0 0 2.5%;
+  width: 77%;
   display: inline-block;
 }
 .events-type{
-  width:84%;
-  padding: 15px 6%;
-  margin: 0 12% 6px 3%;
+  width: 100%;
+  padding: 15px 5%;
+  margin: 0 0 6px 0;
   background-color: #1d2a2f;
   color: #918d82;
   font-size: 15px;
@@ -245,8 +249,12 @@ h2,.info-title{
   margin: 0 0 31px 0;
   display: inline-block;
 }
-.mid{
-  margin: 0 2.9%;
+.gallery-item img{
+  width: 100%;
+  height: auto;
+}
+.gallery-item:nth-child(2),.gallery-item:nth-child(5){
+  padding: 0 3%;
 }
 
 
@@ -265,7 +273,7 @@ h2,.info-title{
   padding: 31px 0 66px 0;
   color: #918d82;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
 }
 .card{
@@ -274,7 +282,7 @@ h2,.info-title{
   
 }
 .card:nth-child(2){
-  padding: 0 3.1%;
+  padding: 0 2.9%;
 }
 /*popular end here*/
 /*=================================
@@ -289,7 +297,7 @@ footer{
   background-color: #020a11;
 }
 .locations{
-  width: 31%;
+  width: 30%;
   display: inline-block;
   overflow: hidden;
 }
@@ -297,7 +305,8 @@ footer{
   margin: 0 3%;
 }
 .country{
-  padding: 0 0 45px 0;
+  padding: 0 0 24px 0;
+  border: none;
   color: #fff;
   font-size: 26px;
   font-weight: 600;
@@ -307,7 +316,7 @@ footer{
   padding: 15px 0;
   color: #1f262c;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   box-shadow: 0 1px #1f262c;
 }
 
@@ -322,7 +331,10 @@ footer{
   padding: 63px 0 10px 0;
   text-align: center;
 }
-
+.connect a{
+  margin:0 .9%;
+  display: inline-block;
+}
 /* hover and icon*/
 .btn:hover{
   background-color: #fff;
@@ -331,14 +343,43 @@ footer{
 a{
   text-decoration: none;
 }
-.icon{
-  text-indent: -9999px;
+.menu::before{
+  margin: 0 1%;
+  color: #fff;
+  font-family: 'FontAwesome';
+  font-weight: 600;
+  font-size: 20px;
+  content: '\f0c9';
+}
+.icon {
+  font-family: 'FontAwesome';
+  font-size: 0;
 }
 .twitter::before{
-  font-family: 'FontAwesome';
-  font-size: 900;
-  content: '\f00c';
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f099';
 }
+.facebook::before{
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f09a';
+}
+.insta:before{
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f16d';
+}
+.snapchat:before{
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f2ab';
+}
+
 
  /*=================================
   footer styling ends here
@@ -348,6 +389,149 @@ a{
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+/*=================================
+  Header styling starts here
+=================================*/
+.hero-section{
+  width: 100%;
+}
+.navbar{
+  padding: 15px 0;
+}
+.logo{
+  width: 85%;
+  padding: 0 17px ;
+}
 
+.company{
+  width: 54%;
+  padding: 200px 0;
+}
+
+.description{
+  padding: 50px 0 45px;
+}
+.hero-btn{
+  padding: 20px 30px;
+}
+
+
+/*=================================
+  Header styling ends here
+=================================*/  
+
+/*=================================
+  main styling starts here
+=================================*/
+/*info start here*/
+.about{
+  padding: 101px 0 65px 0;
+}
+.info-title{
+  padding: 0 0 41px 0;
+}
+
+.videos{
+  padding: 0 0 91px 0;
+}
+.video1,.video2{
+  width:48%;
+  display: inline-block;
+}
+.video1{
+  padding: 0 3% 0 0;
+}
+.figcaption{
+  padding: 45px 0;
+}
+/*info ends here*/
+
+/*gallery start here*/
+.gallery{
+  padding: 101px 0 92px 0;
+}
+.gallery-title{
+  padding: 101px 0 0 0;
+}
+.gallery-description{
+  padding: 40px 0 70px 0;
+}
+.events{
+  width:20% ;
+  padding: 0 0 100px 0;
+}
+.gallery-items{
+  width: 72%;
+  /* padding: 0 0 0 2.5%; */
+}
+.events-type{
+  width:84%;
+  /* padding: 15px 6%;
+  margin: 0 3% 6px 3%; */
+}
+
+.gallery-item{
+  width: 31%;
+  padding: 0 0 31px 0;
+  display: inline-block;
+}
+.mid{
+  margin: 0 2%;
+}
+
+
+
+/*gallery ends here*/
+
+/*popular start here*/
+.popular{
+  padding: 100px 0 92px 0;
+}
+
+.popular-description{
+  padding: 31px 0 66px 0;
+}
+.card{
+  width: 31%;
+  display: inline-block;
+  
+}
+.card:nth-child(2){
+  padding: 0 2.8%;
+}
+/*popular end here*/
+/*=================================
+  main styling ends here
+=================================*/
+
+/*=================================
+  footer styling starts here
+=================================*/ 
+footer{
+  padding: 101px 0 53px 0;
+}
+.locations{
+  width: 31%;
+  display: inline-block;
+}
+.locations:nth-child(2){
+  margin: 0 2.8%;
+}
+.country{
+  padding: 0 0 24px 0;
+}
+.location{
+  width: 100%;
+  padding: 15px 0;
+}
+
+
+.connect{
+  padding: 63px 0 10px 0;
+}
+.connect a{
+  margin:0 .9%;
+  display: inline-block;
+}
 
 }  
