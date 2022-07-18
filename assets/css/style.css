@@ -398,7 +398,7 @@ a { text-decoration: none;}
 }
 
 .twitter:hover,.facebook:hover,.insta:hover,.snapchat:hover {
-  font-size: 30px;
+  color: #85109f;
 } 
 
 .twitter::before {
