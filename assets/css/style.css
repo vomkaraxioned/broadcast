@@ -270,8 +270,8 @@ img { border-radius: 5px 5px 0 0;}
 
 .events-type {
   width: 100%;
-  padding: 15px 4%;
-  border-radius: 5px;
+  padding: 15px 0;
+  border-radius: 5px ;
   margin: 0 0 6px 0;
   background-color: #1d2a2f;
   color: #918d82;
@@ -495,7 +495,9 @@ a { text-decoration: none;}
 }
 
 .events-type {
-  width:84%;
+  width:100%;
+  padding: 10px 0;
+  font-size: 12px;
 }
 
 .gallery-item {
@@ -562,7 +564,7 @@ footer {padding: 101px 0 53px 0;}
   .navbar {padding: 15px 0;}
 
   .logo {
-    width: 70%;
+    width: 60%;
     padding: 0 17px ;
   }
   
@@ -611,13 +613,16 @@ footer {padding: 101px 0 53px 0;}
   .gallery-description { padding: 40px 0 70px 0;}
 
   .events {
-    width:20% ;
+    width:30% ;
     padding: 0 2% 100px 0;
   }
 
-  .gallery-items { width: 72%;}
+  .gallery-items { width: 60%;}
 
-  .events-type{width:100%;}
+  .events-type{
+    width:100%;
+    padding: 10px 0;
+  }
   
 
   .gallery-item:nth-child(2),.gallery-item:nth-child(5) {
@@ -697,7 +702,7 @@ footer {padding: 101px 0 53px 0;}
     .navbar {padding: 15px 0;}
 
     .logo {
-      width: 60%;
+      width: 45%;
       padding: 0 17px ;
     }
     
@@ -752,16 +757,14 @@ footer {padding: 101px 0 53px 0;}
 
     .events-type {width:100%;}
 
+    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding:  0; }
+
     .gallery-item {
       width: 100%;
       padding: 10px 0;
       display: inline-block;
     }
   
-    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding: 10px 0; }
-  
-    
-    
     /*gallery ends here*/
     
     /*popular start here*/
@@ -790,11 +793,16 @@ footer {padding: 101px 0 53px 0;}
 
     .locations {
       width: 100%;
+      margin-bottom:20px ;
       display: inline-block;
       text-align: center;
     }
     
-    .locations:nth-child(2) {margin: 0 2%;}
+    .locations:nth-child(2) {
+      border-top:1px solid #cdcdcd ;
+      border-bottom: 1px solid #cdcdcd;
+      margin: 0 ;
+    }
 
     .country {padding: 0 0 24px 0;}
 
@@ -806,10 +814,27 @@ footer {padding: 101px 0 53px 0;}
     }
 
     .connect a {
-      margin:0 .9%;
+      margin:0 1%;
+      display: inline-block;
+    }
+    /*hamburger*/
+    .nav-item {
+      display: none;
+      padding: 15px 0;
+      border-bottom:1px solid #fff ;
+      z-index: -1;
+    }
+
+    .menu {
       display: inline-block;
     }
     
+    .menu::before {
+      margin: 0 2%;
+      font-family: 'FontAwesome';
+      font-size: 20px;
+      content: '\f0c9';
+    }
     }  
 
   /*media query for 320px starts here*/
