@@ -102,14 +102,89 @@ li {
   max-width: 1360px;
   width: 86%; 
   margin: 0 auto;
+  font-family: 'Signika Negative', sans-serif;
 }
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+
 /*=================================
   Header styling starts here
 =================================*/
 
+.hero-section {
+  width: 100%;
+  background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
+}
 
+.nav-items {
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
 
+.nav-item a {
+  padding: 0 10%;
+  margin: 0 20%;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
 
+.logo {
+  width: 65%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.menu {  display: none;}
+
+.navbar {
+  padding: 15px 0;
+  background-color: #101b32;
+  color: #fff;
+}
+
+.bold {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.company {
+  width: 54%;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.title {
+  color: #e5e5e5;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.description {
+  padding: 50px 0 45px;
+  color: #b2b7bb;
+  font-size: 17px;
+  text-align: center;
+}
+
+.hero-btn {
+  padding: 16px 7%;
+  border: 1px solid #737d87;
+  border-radius: 3px;
+  color:#fff;
+  font-size: 17px;
+}
 
 
 /*=================================
@@ -119,14 +194,141 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/*info start here*/
+.info {  background-color: #28364b;}
+
+.about {
+  padding: 101px 0 65px 0;
+  text-align: center;
+}
+
+h3,.info-title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.info-title {
+  padding: 0 0 41px 0;
+  text-align: center;
+}
+
+.info-description {
+  color: #777670;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.videos {
+  padding: 0 0 91px 0;
+}
+
+.video1,.video2 {
+  width:48%;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.video1 { padding: 0 3% 0 0;}
+
+img { border-radius: 5px 5px 0 0;}
+
+.figcaption {
+  padding: 45px 0;
+  border-radius:0 0 5px 5px ;
+  background-color: #303f49;
+  color: #918d82;
+  text-align: center;
+}
+
+/*info ends here*/
+
+/*gallery start here*/
+.gallery {
+  padding: 101px 0 92px 0;
+  background-color: #273041;
+}
+
+.gallery-description {
+  padding: 40px 0 70px 0;
+  color: #918d82;
+  font-size: 17px;
+}
+
+.events {
+  width:20% ;
+  padding: 0 0 100px 0;
+  margin: 0 1.9% 0 0;
+  display: inline-block;
+  overflow: hidden;
+}
+.gallery-items {
+  width: 77%;
+  display: inline-block;
+  box-sizing:border-box;
+}
+
+.events-type {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 5px ;
+  margin: 0 0 6px 0;
+  background-color: #1d2a2f;
+  color: #918d82;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.events-type a {
+  padding-left:3% ;
+  color: #918d82;
+}
+
+.events-type:hover {
+  background-color: #85109f;
+  color: #000;
+}
+.active {
+  background-color: #85109f;
+}
+.gallery-item {
+  width: 31%;
+  margin: 0 0 31px 0;
+  display: inline-block;
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 5px ;
+}
+.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5%;}
 
 
 
+/*gallery ends here*/
 
+/*popular start here*/
+.popular {
+  padding: 100px 0 92px 0;
+  background-color: #222831;
+}
+.popular-title {
+  text-align: center;
+}
+.popular-description {
+  padding: 31px 0 66px 0;
+  color: #918d82;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.card {
+  width: 31%;
+  display: inline-block;
+  
+}
+.card:nth-child(2) {  padding: 0 2.9%;}
 
-
-
-
+/*popular end here*/
 /*=================================
   main styling ends here
 =================================*/
@@ -134,11 +336,98 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer {
+  padding: 101px 0 53px 0;
+  background-color: #020a11;
+}
 
+.locations {
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
 
+.locations:nth-child(2) {margin: 0 3%;}
+.country {
+  padding: 0 0 24px 0;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
 
+.location {
+  width: 100%;
+  padding: 15px 0;
+  color: #1f262c;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 1px #1f262c;
+}
 
+.copyright {
+  color: #1f262c;
+  text-align: center;
+}
 
+.copyright a {
+  color: #fff;
+}
+
+.connect {
+  padding: 63px 0 10px 0;
+  text-align: center;
+}
+
+.connect a {
+  margin:0 .9%;
+  display: inline-block;
+}
+
+/* hover and icon*/
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+a { text-decoration: none;}
+
+.icon {
+  font-family: 'FontAwesome';
+  font-size: 0;
+}
+
+.twitter:hover,.facebook:hover,.insta:hover,.snapchat:hover {
+  color: #85109f;
+} 
+
+.twitter::before {
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f099';
+}
+
+.facebook::before {
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f09a';
+}
+
+.insta:before {
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f16d';
+}
+
+.snapchat:before {
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+  content: '\f2ab';
+}
 
 
  /*=================================
@@ -146,9 +435,527 @@ li {
 =================================*/ 
 
 /*media query starts*/
+
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+/*=================================
+  Header styling starts here
+=================================*/
+.hero-section {width: 100%;}
 
+.navbar {padding: 15px 0;}
+
+.logo {
+  width: 85%;
+  padding: 0 17px ;
+}
+
+.company {
+  width: 54%;
+  padding: 200px 0;
+}
+
+.description {padding: 50px 0 45px;}
+.hero-btn {padding: 20px 30px;}
+
+
+/*=================================
+  Header styling ends here
+=================================*/  
+
+/*=================================
+  main styling starts here
+=================================*/
+/*info start here*/
+.about {padding: 101px 0 65px 0;}
+
+.info-title {padding: 0 0 41px 0;}
+
+.videos {padding: 0 0 91px 0;}
+
+.video1,.video2 {
+  width:48%;
+  display: inline-block;
+}
+.video1 {padding: 0 3% 0 0;}
+.figcaption {padding: 45px 0;}
+/*info ends here*/
+
+/*gallery start here*/
+.gallery {padding: 101px 0 92px 0;}
+.gallery-description {padding: 40px 0 70px 0;}
+
+.events {
+  width:20% ;
+  padding: 0 0 100px 0;
+}
+
+.gallery-items { width: 72%;
+}
+
+.events-type {
+  width:100%;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+.gallery-item {
+  width: 31%;
+  padding: 0 0 31px 0;
+  display: inline-block;
+}
+
+
+
+
+/*gallery ends here*/
+
+/*popular start here*/
+.popular {padding: 100px 0 92px 0;}
+
+.popular-description {padding: 31px 0 66px 0;}
+
+.card {
+  width: 31%;
+  display: inline-block;
+}
+
+.card:nth-child(2) {
+  padding: 0 2.8%;
+}
+/*popular end here*/
+/*=================================
+  main styling ends here
+=================================*/
+
+/*=================================
+  footer styling starts here
+=================================*/ 
+footer {padding: 101px 0 53px 0;}
+
+.locations {
+  width: 31%;
+  display: inline-block;
+}
+.locations:nth-child(2) {margin: 0 2.8%;}
+
+.country {padding: 0 0 24px 0;}
+
+.location {width: 100%;padding: 15px 0;}
+
+
+.connect {padding: 63px 0 10px 0;}
+
+.connect a {
+  margin:0 .9%;
+  display: inline-block;
+}
 
 }  
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+  /*=================================
+    Header styling starts here
+  =================================*/
+  .hero-section {width: 100%;}
+
+  .navbar {padding: 15px 0;}
+
+  .logo {
+    width: 60%;
+    padding: 0 17px ;
+  }
+  
+  .company {
+    width: 54%;
+    padding: 200px 0;
+  }
+  
+  .description {
+    padding: 50px 0 45px;
+  }
+
+  .hero-btn {
+    padding: 20px 30px;
+  }
+  
+  
+  /*=================================
+    Header styling ends here
+  =================================*/  
+  
+  /*=================================
+    main styling starts here
+  =================================*/
+  /*info start here*/
+  .about {padding: 101px 0 65px 0;}
+
+  .info-title {padding: 0 0 41px 0;}
+  
+  .videos {padding: 0 0 91px 0;}
+
+  .video1,.video2 {
+    width:48%;
+    display: inline-block;
+  }
+
+  .video1 {padding: 0 3% 0 0;}
+
+  .figcaption {padding: 45px 0;}
+
+  /*info ends here*/
+  
+  /*gallery start here*/
+  .gallery {padding: 51px 0 92px 0;}
+
+  .gallery-description { padding: 40px 0 70px 0;}
+
+  .events {
+    width:30% ;
+    padding: 0 2% 100px 0;
+  }
+
+  .gallery-items { width: 60%;}
+
+  .events-type{
+    width:100%;
+    padding: 10px 0;
+  }
+  
+
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery-item:nth-child(5) { padding: 0 4% 15px 0;}
+
+  .gallery-item {
+    width: 45%;
+    padding: 0 4% 15px 0;
+    display: inline-block;
+  }
+  
+  
+  /*gallery ends here*/
+  
+  /*popular start here*/
+  .popular {padding: 100px 0 92px 0;}
+  
+  .popular-description {
+    padding: 31px 0 66px 0;
+  }
+
+  .card {
+    width: 31%;
+    display: inline-block;
+    
+  }
+
+  .card:nth-child(2) {padding: 0 2%;}
+
+  /*popular end here*/
+  /*=================================
+    main styling ends here
+  =================================*/
+  
+  /*=================================
+    footer styling starts here
+  =================================*/ 
+  footer {padding: 101px 0 53px 0;}
+
+  .locations {
+    width: 31%;
+    display: inline-block;
+  }
+
+  .locations:nth-child(2) {margin: 0 2%;}
+
+  .country {padding: 0 0 24px 0;}
+
+  .location {
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  
+  .connect {padding: 63px 0 10px 0;}
+
+  .connect a {
+    margin:0 .9%;
+    display: inline-block;
+  }
+  
+  }  
+
+
+  /*media query for 480px starts here*/
+  @media only screen and (max-width: 480px) {
+
+    /*=================================
+      Header styling starts here
+    =================================*/
+    .title {font-size: 12px;}
+
+    .navbar {padding: 15px 0;}
+
+    .logo {
+      width: 45%;
+      padding: 0 17px ;
+    }
+    
+    .company {
+      width: 54%;
+      padding: 200px 0;
+    }
+    
+    .description {padding: 50px 0 45px;}
+    
+    .hero-btn {padding: 20px 30px;}
+    
+    
+    /*=================================
+      Header styling ends here
+    =================================*/  
+    
+    /*=================================
+      main styling starts here
+    =================================*/
+    /*info start here*/
+
+    .about {padding: 101px 0 65px 0;}
+
+    .info-title {padding: 0 0 41px 0;}
+    
+    .videos {
+      padding: 0 0 91px 0;
+      text-align: center;
+    }
+
+    .video1,.video2 {
+      width:90%;
+      padding: 20px 0;
+      display: inline-block;
+    }
+
+    .figcaption {padding: 45px 0;}
+    /*info ends here*/
+    
+    /*gallery start here*/
+    .gallery{padding: 51px 0 92px 0;}
+
+    .gallery-description{padding: 40px 0 70px 0;}
+
+    .events {
+      width:100% ;
+      padding: 0 2% 100px 0;
+    }
+
+    .gallery-items {width: 100%;}
+
+    .events-type {width:100%;}
+
+    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding:  0; }
+
+    .gallery-item {
+      width: 100%;
+      padding: 10px 0;
+      display: inline-block;
+    }
+  
+    /*gallery ends here*/
+    
+    /*popular start here*/
+    .popular {padding: 100px 0 92px 0;}
+    
+    .popular-description {padding: 31px 0 66px 0;}
+
+    .card {
+      width: 100%;
+      padding: 20px 0;
+      display: inline-block;
+      
+    }
+
+    .card:nth-child(2) {padding: 0;}
+
+    /*popular end here*/
+    /*=================================
+      main styling ends here
+    =================================*/
+    
+    /*=================================
+      footer styling starts here
+    =================================*/ 
+    footer {padding: 101px 0 53px 0; }
+
+    .locations {
+      width: 100%;
+      margin-bottom:20px ;
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .locations:nth-child(2) {
+      border-top:1px solid #cdcdcd ;
+      border-bottom: 1px solid #cdcdcd;
+      margin: 0 ;
+    }
+
+    .country {padding: 0 0 24px 0;}
+
+    .location {width: 100%;padding: 15px 0;}
+    
+    
+    .connect {
+      padding: 63px 0 10px 0;
+    }
+
+    .connect a {
+      margin:0 1%;
+      display: inline-block;
+    }
+    /*hamburger*/
+    .nav-item {
+      display: none;
+      padding: 15px 0;
+      border-bottom:1px solid #fff ;
+      z-index: -1;
+    }
+
+    .menu {
+      display: inline-block;
+    }
+    
+    .menu::before {
+      margin: 0 2%;
+      font-family: 'FontAwesome';
+      font-size: 20px;
+      content: '\f0c9';
+    }
+    }  
+
+  /*media query for 320px starts here*/
+@media only screen and (max-width: 320px) {
+
+  /*=================================
+    Header styling starts here
+  =================================*/
+  .title {font-size: 12px;}
+
+  .navbar {padding: 15px 0;}
+  
+  .logo {
+    width: 60%;
+    padding: 0 17px ;
+  }
+  
+  .company {
+    width: 54%;
+    padding: 200px 0;
+  }
+  
+  .description {padding: 50px 0 45px;}
+
+  .hero-btn {padding: 20px 30px;}
+  
+  
+  /*=================================
+    Header styling ends here
+  =================================*/  
+  
+  /*=================================
+    main styling starts here
+  =================================*/
+  /*info start here*/
+  .about {padding: 101px 0 65px 0;}
+
+  .info-title {padding: 0 0 41px 0;}
+  
+  .videos {
+    padding: 0 0 91px 0;
+    text-align: center;
+  }
+
+  .video1,.video2 {
+    width:90%;
+    padding: 20px 0;
+    display: inline-block;
+  }
+
+  .figcaption { padding: 45px 0;}
+  /*info ends here*/
+  
+  /*gallery start here*/
+  .gallery {padding: 51px 0 92px 0;}
+
+  .gallery-description { padding: 40px 0 70px 0;}
+
+  .events {
+    width:100% ;
+    padding: 0 2% 100px 0;
+  }
+  .gallery-items {width: 100%;}
+
+  .events-type { width:100%;}
+
+  .gallery-item {
+    width: 100%;
+    padding: 10px 0;
+    display: inline-block;
+  }
+
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 10px 0;}
+
+  
+  
+  /*gallery ends here*/
+  
+  /*popular start here*/
+  .popular {padding: 100px 0 92px 0;}
+  
+  .popular-description {padding: 31px 0 66px 0;}
+
+  .card {
+    width: 100%;
+    padding: 20px 0;
+    display: inline-block;
+    
+  }
+
+  .card:nth-child(2) {padding: 0;}
+  /*popular end here*/
+  /*=================================
+    main styling ends here
+  =================================*/
+  
+  /*=================================
+    footer styling starts here
+  =================================*/ 
+  footer{padding: 101px 0 53px 0;}
+
+  .locations {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .locations:nth-child(2) {margin: 0 2%;}
+
+  .country {padding: 0 0 24px 0;}
+
+  .location {
+    width: 100%;
+    padding: 15px 0;
+  }
+  
+  
+  .connect {padding: 63px 0 10px 0;}
+
+  .connect a {
+    margin:0 .9%;
+    display: inline-block;
+  }
+  
+  }  
