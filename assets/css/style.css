@@ -102,59 +102,86 @@ li {
   max-width: 1360px;
   width: 86%; 
   margin: 0 auto;
+  font-family: 'Signika Negative', sans-serif;
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: center;
 }
-*{
-  font-family: 'Signika Negative', sans-serif;
-}
+
+
 /*=================================
   Header styling starts here
 =================================*/
-.hero-section{
+
+.hero-section {
   width: 100%;
-  background-image: url('https://via.placeholder.com/565x450/000000/808080?');
+  background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
 }
-.navbar{
+
+.nav-items {
+  width: 30%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.nav-item a {
+  padding: 0 10%;
+  margin: 0 20%;
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.logo {
+  width: 65%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.menu {  display: none;}
+
+.navbar {
   padding: 15px 0;
   background-color: #101b32;
   color: #fff;
 }
-.logo{
-  width: 90%;
-  padding: 0 17px ;
-  display: inline-block;
-  font-size: 14px;
-}
-.bold{
+
+.bold {
   font-size: 17px;
   font-weight: 600;
 }
-.upper{
+
+.upper {
   text-transform: uppercase;
 }
-.company{
+
+.company {
   width: 54%;
   padding: 200px 0;
   text-align: center;
 }
-.title{
+
+.title {
   color: #e5e5e5;
   font-size: 46px;
   font-weight: 700;
   text-align: center;
 }
-.description{
+
+.description {
   padding: 50px 0 45px;
   color: #b2b7bb;
   font-size: 17px;
   text-align: center;
 }
-.hero-btn{
-  padding: 20px 30px;
+
+.hero-btn {
+  padding: 16px 7%;
   border: 1px solid #737d87;
+  border-radius: 3px;
   color:#fff;
   font-size: 17px;
 }
@@ -168,119 +195,139 @@ li {
   main styling starts here
 =================================*/
 /*info start here*/
-.info{
-  background-color: #28364b;
-}
-.about{
+.info {  background-color: #28364b;}
+
+.about {
   padding: 101px 0 65px 0;
   text-align: center;
 }
-h2,.info-title{
+
+h3,.info-title {
   color: #fff;
   font-size: 30px;
   font-weight: 600;
 }
-.info-title{
+
+.info-title {
   padding: 0 0 41px 0;
   text-align: center;
 }
-.info-description{
+
+.info-description {
   color: #777670;
   font-size: 17px;
   font-weight: 600;
 }
-.videos{
+
+.videos {
   padding: 0 0 91px 0;
 }
-.video1,.video2{
+
+.video1,.video2 {
   width:48%;
   display: inline-block;
   font-size: 17px;
 }
-.video1{
-  padding: 0 3% 0 0;
-}
-.figcaption{
+
+.video1 { padding: 0 3% 0 0;}
+
+img { border-radius: 5px 5px 0 0;}
+
+.figcaption {
   padding: 45px 0;
+  border-radius:0 0 5px 5px ;
   background-color: #303f49;
   color: #918d82;
+  text-align: center;
 }
+
 /*info ends here*/
 
 /*gallery start here*/
-.gallery{
+.gallery {
   padding: 101px 0 92px 0;
   background-color: #273041;
 }
-.gallery-description{
+
+.gallery-description {
   padding: 40px 0 70px 0;
   color: #918d82;
   font-size: 17px;
 }
-.events{
+
+.events {
   width:20% ;
   padding: 0 0 100px 0;
   margin: 0 1.9% 0 0;
   display: inline-block;
   overflow: hidden;
 }
-.gallery-items{
+.gallery-items {
   width: 77%;
   display: inline-block;
   box-sizing:border-box;
 }
-.events-type{
+
+.events-type {
   width: 100%;
-  padding: 15px 5%;
+  padding: 15px 4%;
+  border-radius: 5px;
   margin: 0 0 6px 0;
   background-color: #1d2a2f;
   color: #918d82;
   font-size: 15px;
-
+  text-align: justify;
 }
-.active{
+
+.events-type a {
+  padding-left:3% ;
+  color: #918d82;
+}
+
+.events-type:hover {
+  background-color: #85109f;
+  color: #000;
+}
+.active {
   background-color: #85109f;
 }
-.gallery-item{
+.gallery-item {
   width: 31%;
   margin: 0 0 31px 0;
   display: inline-block;
 }
-.gallery-item img{
+.gallery-item img {
   width: 100%;
-  height: 100%;
+  border-radius: 5px ;
 }
-.gallery-item:nth-child(2),.gallery-item:nth-child(5){
-  padding: 0 2.5%;
-}
+.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5%;}
 
 
 
 /*gallery ends here*/
 
 /*popular start here*/
-.popular{
+.popular {
   padding: 100px 0 92px 0;
   background-color: #222831;
 }
-.popular-title{
+.popular-title {
   text-align: center;
 }
-.popular-description{
+.popular-description {
   padding: 31px 0 66px 0;
   color: #918d82;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
-.card{
+.card {
   width: 31%;
   display: inline-block;
   
 }
-.card:nth-child(2){
-  padding: 0 2.9%;
-}
+.card:nth-child(2) {  padding: 0 2.9%;}
+
 /*popular end here*/
 /*=================================
   main styling ends here
@@ -289,26 +336,27 @@ h2,.info-title{
 /*=================================
   footer styling starts here
 =================================*/ 
-footer{
+footer {
   padding: 101px 0 53px 0;
   background-color: #020a11;
 }
-.locations{
+
+.locations {
   width: 30%;
   display: inline-block;
   overflow: hidden;
 }
-.locations:nth-child(2){
-  margin: 0 3%;
-}
-.country{
+
+.locations:nth-child(2) {margin: 0 3%;}
+.country {
   padding: 0 0 24px 0;
   border: none;
   color: #fff;
   font-size: 26px;
   font-weight: 600;
 }
-.location{
+
+.location {
   width: 100%;
   padding: 15px 0;
   color: #1f262c;
@@ -317,60 +365,64 @@ footer{
   box-shadow: 0 1px #1f262c;
 }
 
-.copyright{
+.copyright {
   color: #1f262c;
   text-align: center;
 }
-.copyright a{
+
+.copyright a {
   color: #fff;
 }
-.connect{
+
+.connect {
   padding: 63px 0 10px 0;
   text-align: center;
 }
-.connect a{
+
+.connect a {
   margin:0 .9%;
   display: inline-block;
 }
+
 /* hover and icon*/
-.btn:hover{
+.btn:hover {
   background-color: #fff;
   color: #000;
 }
-a{
-  text-decoration: none;
-}
-.menu::before{
-  margin: 0 1%;
-  color: #fff;
-  font-family: 'FontAwesome';
-  font-weight: 600;
-  font-size: 20px;
-  content: '\f0c9';
-}
+
+a { text-decoration: none;}
+
 .icon {
   font-family: 'FontAwesome';
   font-size: 0;
 }
-.twitter::before{
+
+.twitter:hover,.facebook:hover,.insta:hover,.snapchat:hover {
+  font-size: 30px;
+} 
+
+.twitter::before {
   color: #fff;
   font-weight: 900;
   font-size: 24px;
   content: '\f099';
 }
-.facebook::before{
+
+.facebook::before {
   color: #fff;
   font-weight: 900;
   font-size: 24px;
   content: '\f09a';
 }
-.insta:before{
+
+.insta:before {
   color: #fff;
   font-weight: 900;
   font-size: 24px;
   content: '\f16d';
 }
-.snapchat:before{
+
+.snapchat:before {
   color: #fff;
   font-weight: 900;
   font-size: 24px;
@@ -390,28 +442,22 @@ a{
 /*=================================
   Header styling starts here
 =================================*/
-.hero-section{
-  width: 100%;
-}
-.navbar{
-  padding: 15px 0;
-}
-.logo{
+.hero-section {width: 100%;}
+
+.navbar {padding: 15px 0;}
+
+.logo {
   width: 85%;
   padding: 0 17px ;
 }
 
-.company{
+.company {
   width: 54%;
   padding: 200px 0;
 }
 
-.description{
-  padding: 50px 0 45px;
-}
-.hero-btn{
-  padding: 20px 30px;
-}
+.description {padding: 50px 0 45px;}
+.hero-btn {padding: 20px 30px;}
 
 
 /*=================================
@@ -422,50 +468,37 @@ a{
   main styling starts here
 =================================*/
 /*info start here*/
-.about{
-  padding: 101px 0 65px 0;
-}
-.info-title{
-  padding: 0 0 41px 0;
-}
+.about {padding: 101px 0 65px 0;}
 
-.videos{
-  padding: 0 0 91px 0;
-}
-.video1,.video2{
+.info-title {padding: 0 0 41px 0;}
+
+.videos {padding: 0 0 91px 0;}
+
+.video1,.video2 {
   width:48%;
   display: inline-block;
 }
-.video1{
-  padding: 0 3% 0 0;
-}
-.figcaption{
-  padding: 45px 0;
-}
+.video1 {padding: 0 3% 0 0;}
+.figcaption {padding: 45px 0;}
 /*info ends here*/
 
 /*gallery start here*/
-.gallery{
-  padding: 101px 0 92px 0;
-}
-.gallery-description{
-  padding: 40px 0 70px 0;
-}
-.events{
+.gallery {padding: 101px 0 92px 0;}
+.gallery-description {padding: 40px 0 70px 0;}
+
+.events {
   width:20% ;
   padding: 0 0 100px 0;
 }
-.gallery-items{
-  width: 72%;
-  /* padding: 0 0 0 2.5%; */
-}
-.events-type{
-  width:84%;
-  /* padding: 15px 6%;
-  margin: 0 3% 6px 3%; */
+
+.gallery-items { width: 72%;
 }
 
-.gallery-item{
+.events-type {
+  width:84%;
+}
+
+.gallery-item {
   width: 31%;
   padding: 0 0 31px 0;
   display: inline-block;
@@ -477,19 +510,16 @@ a{
 /*gallery ends here*/
 
 /*popular start here*/
-.popular{
-  padding: 100px 0 92px 0;
-}
+.popular {padding: 100px 0 92px 0;}
 
-.popular-description{
-  padding: 31px 0 66px 0;
-}
-.card{
+.popular-description {padding: 31px 0 66px 0;}
+
+.card {
   width: 31%;
   display: inline-block;
-  
 }
-.card:nth-child(2){
+
+.card:nth-child(2) {
   padding: 0 2.8%;
 }
 /*popular end here*/
@@ -500,29 +530,22 @@ a{
 /*=================================
   footer styling starts here
 =================================*/ 
-footer{
-  padding: 101px 0 53px 0;
-}
-.locations{
+footer {padding: 101px 0 53px 0;}
+
+.locations {
   width: 31%;
   display: inline-block;
 }
-.locations:nth-child(2){
-  margin: 0 2.8%;
-}
-.country{
-  padding: 0 0 24px 0;
-}
-.location{
-  width: 100%;
-  padding: 15px 0;
-}
+.locations:nth-child(2) {margin: 0 2.8%;}
+
+.country {padding: 0 0 24px 0;}
+
+.location {width: 100%;padding: 15px 0;}
 
 
-.connect{
-  padding: 63px 0 10px 0;
-}
-.connect a{
+.connect {padding: 63px 0 10px 0;}
+
+.connect a {
   margin:0 .9%;
   display: inline-block;
 }
@@ -534,26 +557,25 @@ footer{
   /*=================================
     Header styling starts here
   =================================*/
-  .hero-section{
-    width: 100%;
-  }
-  .navbar{
-    padding: 15px 0;
-  }
-  .logo{
+  .hero-section {width: 100%;}
+
+  .navbar {padding: 15px 0;}
+
+  .logo {
     width: 70%;
     padding: 0 17px ;
   }
   
-  .company{
+  .company {
     width: 54%;
     padding: 200px 0;
   }
   
-  .description{
+  .description {
     padding: 50px 0 45px;
   }
-  .hero-btn{
+
+  .hero-btn {
     padding: 20px 30px;
   }
   
@@ -566,55 +588,46 @@ footer{
     main styling starts here
   =================================*/
   /*info start here*/
-  .about{
-    padding: 101px 0 65px 0;
-  }
-  .info-title{
-    padding: 0 0 41px 0;
-  }
+  .about {padding: 101px 0 65px 0;}
+
+  .info-title {padding: 0 0 41px 0;}
   
-  .videos{
-    padding: 0 0 91px 0;
-  }
-  .video1,.video2{
+  .videos {padding: 0 0 91px 0;}
+
+  .video1,.video2 {
     width:48%;
     display: inline-block;
   }
-  .video1{
-    padding: 0 3% 0 0;
-  }
-  .figcaption{
-    padding: 45px 0;
-  }
+
+  .video1 {padding: 0 3% 0 0;}
+
+  .figcaption {padding: 45px 0;}
+
   /*info ends here*/
   
   /*gallery start here*/
-  .gallery{
-    padding: 51px 0 92px 0;
-  }
-  .gallery-description{
-    padding: 40px 0 70px 0;
-  }
-  .events{
+  .gallery {padding: 51px 0 92px 0;}
+
+  .gallery-description { padding: 40px 0 70px 0;}
+
+  .events {
     width:20% ;
     padding: 0 2% 100px 0;
   }
-  .gallery-items{
-    width: 72%;
-  }
-  .events-type{
-    width:100%;
-  }
+
+  .gallery-items { width: 72%;}
+
+  .events-type{width:100%;}
   
 
-  .gallery-item:nth-child(2),.gallery-item:nth-child(5){
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {
     padding: 0;
     margin: 0;
   }
-  .gallery-item:nth-child(5){
-    padding: 0 4% 15px 0;
-  }
-  .gallery-item{
+
+  .gallery-item:nth-child(5) { padding: 0 4% 15px 0;}
+
+  .gallery-item {
     width: 45%;
     padding: 0 4% 15px 0;
     display: inline-block;
@@ -624,21 +637,20 @@ footer{
   /*gallery ends here*/
   
   /*popular start here*/
-  .popular{
-    padding: 100px 0 92px 0;
-  }
+  .popular {padding: 100px 0 92px 0;}
   
-  .popular-description{
+  .popular-description {
     padding: 31px 0 66px 0;
   }
-  .card{
+
+  .card {
     width: 31%;
     display: inline-block;
     
   }
-  .card:nth-child(2){
-    padding: 0 2%;
-  }
+
+  .card:nth-child(2) {padding: 0 2%;}
+
   /*popular end here*/
   /*=================================
     main styling ends here
@@ -647,29 +659,26 @@ footer{
   /*=================================
     footer styling starts here
   =================================*/ 
-  footer{
-    padding: 101px 0 53px 0;
-  }
-  .locations{
+  footer {padding: 101px 0 53px 0;}
+
+  .locations {
     width: 31%;
     display: inline-block;
   }
-  .locations:nth-child(2){
-    margin: 0 2%;
-  }
-  .country{
-    padding: 0 0 24px 0;
-  }
-  .location{
+
+  .locations:nth-child(2) {margin: 0 2%;}
+
+  .country {padding: 0 0 24px 0;}
+
+  .location {
     width: 100%;
     padding: 15px 0;
   }
   
   
-  .connect{
-    padding: 63px 0 10px 0;
-  }
-  .connect a{
+  .connect {padding: 63px 0 10px 0;}
+
+  .connect a {
     margin:0 .9%;
     display: inline-block;
   }
@@ -683,28 +692,23 @@ footer{
     /*=================================
       Header styling starts here
     =================================*/
-    .title{
-      font-size: 12px;
-    }
-    .navbar{
-      padding: 15px 0;
-    }
-    .logo{
+    .title {font-size: 12px;}
+
+    .navbar {padding: 15px 0;}
+
+    .logo {
       width: 60%;
       padding: 0 17px ;
     }
     
-    .company{
+    .company {
       width: 54%;
       padding: 200px 0;
     }
     
-    .description{
-      padding: 50px 0 45px;
-    }
-    .hero-btn{
-      padding: 20px 30px;
-    }
+    .description {padding: 50px 0 45px;}
+    
+    .hero-btn {padding: 20px 30px;}
     
     
     /*=================================
@@ -715,75 +719,65 @@ footer{
       main styling starts here
     =================================*/
     /*info start here*/
-    .about{
-      padding: 101px 0 65px 0;
-    }
-    .info-title{
-      padding: 0 0 41px 0;
-    }
+
+    .about {padding: 101px 0 65px 0;}
+
+    .info-title {padding: 0 0 41px 0;}
     
-    .videos{
+    .videos {
       padding: 0 0 91px 0;
       text-align: center;
     }
-    .video1,.video2{
+
+    .video1,.video2 {
       width:90%;
       padding: 20px 0;
       display: inline-block;
     }
-    .figcaption{
-      padding: 45px 0;
-    }
+
+    .figcaption {padding: 45px 0;}
     /*info ends here*/
     
     /*gallery start here*/
-    .gallery{
-      padding: 51px 0 92px 0;
-    }
-    .gallery-description{
-      padding: 40px 0 70px 0;
-    }
-    .events{
+    .gallery{padding: 51px 0 92px 0;}
+
+    .gallery-description{padding: 40px 0 70px 0;}
+
+    .events {
       width:100% ;
       padding: 0 2% 100px 0;
     }
-    .gallery-items{
-      width: 100%;
-    }
-    .events-type{
-      width:100%;
-    }
-    .gallery-item{
+
+    .gallery-items {width: 100%;}
+
+    .events-type {width:100%;}
+
+    .gallery-item {
       width: 100%;
       padding: 10px 0;
       display: inline-block;
     }
   
-    .gallery-item:nth-child(2),.gallery-item:nth-child(5){
-      padding: 10px 0;
-    }
+    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding: 10px 0; }
   
     
     
     /*gallery ends here*/
     
     /*popular start here*/
-    .popular{
-      padding: 100px 0 92px 0;
-    }
+    .popular {padding: 100px 0 92px 0;}
     
-    .popular-description{
-      padding: 31px 0 66px 0;
-    }
-    .card{
+    .popular-description {padding: 31px 0 66px 0;}
+
+    .card {
       width: 100%;
       padding: 20px 0;
       display: inline-block;
       
     }
-    .card:nth-child(2){
-      padding: 0;
-    }
+
+    .card:nth-child(2) {padding: 0;}
+
     /*popular end here*/
     /*=================================
       main styling ends here
@@ -792,30 +786,26 @@ footer{
     /*=================================
       footer styling starts here
     =================================*/ 
-    footer{
-      padding: 101px 0 53px 0;
-    }
-    .locations{
+    footer {padding: 101px 0 53px 0; }
+
+    .locations {
       width: 100%;
       display: inline-block;
       text-align: center;
     }
-    .locations:nth-child(2){
-      margin: 0 2%;
-    }
-    .country{
-      padding: 0 0 24px 0;
-    }
-    .location{
-      width: 100%;
-      padding: 15px 0;
-    }
+    
+    .locations:nth-child(2) {margin: 0 2%;}
+
+    .country {padding: 0 0 24px 0;}
+
+    .location {width: 100%;padding: 15px 0;}
     
     
-    .connect{
+    .connect {
       padding: 63px 0 10px 0;
     }
-    .connect a{
+
+    .connect a {
       margin:0 .9%;
       display: inline-block;
     }
@@ -828,28 +818,23 @@ footer{
   /*=================================
     Header styling starts here
   =================================*/
-  .title{
-    font-size: 12px;
-  }
-  .navbar{
-    padding: 15px 0;
-  }
-  .logo{
+  .title {font-size: 12px;}
+
+  .navbar {padding: 15px 0;}
+  
+  .logo {
     width: 60%;
     padding: 0 17px ;
   }
   
-  .company{
+  .company {
     width: 54%;
     padding: 200px 0;
   }
   
-  .description{
-    padding: 50px 0 45px;
-  }
-  .hero-btn{
-    padding: 20px 30px;
-  }
+  .description {padding: 50px 0 45px;}
+
+  .hero-btn {padding: 20px 30px;}
   
   
   /*=================================
@@ -860,75 +845,62 @@ footer{
     main styling starts here
   =================================*/
   /*info start here*/
-  .about{
-    padding: 101px 0 65px 0;
-  }
-  .info-title{
-    padding: 0 0 41px 0;
-  }
+  .about {padding: 101px 0 65px 0;}
+
+  .info-title {padding: 0 0 41px 0;}
   
-  .videos{
+  .videos {
     padding: 0 0 91px 0;
     text-align: center;
   }
-  .video1,.video2{
+
+  .video1,.video2 {
     width:90%;
     padding: 20px 0;
     display: inline-block;
   }
-  .figcaption{
-    padding: 45px 0;
-  }
+
+  .figcaption { padding: 45px 0;}
   /*info ends here*/
   
   /*gallery start here*/
-  .gallery{
-    padding: 51px 0 92px 0;
-  }
-  .gallery-description{
-    padding: 40px 0 70px 0;
-  }
-  .events{
+  .gallery {padding: 51px 0 92px 0;}
+
+  .gallery-description { padding: 40px 0 70px 0;}
+
+  .events {
     width:100% ;
     padding: 0 2% 100px 0;
   }
-  .gallery-items{
-    width: 100%;
-  }
-  .events-type{
-    width:100%;
-  }
-  .gallery-item{
+  .gallery-items {width: 100%;}
+
+  .events-type { width:100%;}
+
+  .gallery-item {
     width: 100%;
     padding: 10px 0;
     display: inline-block;
   }
 
-  .gallery-item:nth-child(2),.gallery-item:nth-child(5){
-    padding: 10px 0;
-  }
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 10px 0;}
 
   
   
   /*gallery ends here*/
   
   /*popular start here*/
-  .popular{
-    padding: 100px 0 92px 0;
-  }
+  .popular {padding: 100px 0 92px 0;}
   
-  .popular-description{
-    padding: 31px 0 66px 0;
-  }
-  .card{
+  .popular-description {padding: 31px 0 66px 0;}
+
+  .card {
     width: 100%;
     padding: 20px 0;
     display: inline-block;
     
   }
-  .card:nth-child(2){
-    padding: 0;
-  }
+
+  .card:nth-child(2) {padding: 0;}
   /*popular end here*/
   /*=================================
     main styling ends here
@@ -937,30 +909,26 @@ footer{
   /*=================================
     footer styling starts here
   =================================*/ 
-  footer{
-    padding: 101px 0 53px 0;
-  }
-  .locations{
+  footer{padding: 101px 0 53px 0;}
+
+  .locations {
     width: 100%;
     display: inline-block;
     text-align: center;
   }
-  .locations:nth-child(2){
-    margin: 0 2%;
-  }
-  .country{
-    padding: 0 0 24px 0;
-  }
-  .location{
+  .locations:nth-child(2) {margin: 0 2%;}
+
+  .country {padding: 0 0 24px 0;}
+
+  .location {
     width: 100%;
     padding: 15px 0;
   }
   
   
-  .connect{
-    padding: 63px 0 10px 0;
-  }
-  .connect a{
+  .connect {padding: 63px 0 10px 0;}
+
+  .connect a {
     margin:0 .9%;
     display: inline-block;
   }
