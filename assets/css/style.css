@@ -697,18 +697,18 @@ footer {padding: 101px 0 53px 0;}
     /*=================================
       Header styling starts here
     =================================*/
-    .title {font-size: 12px;}
+    .title {font-size: 28px;}
 
     .navbar {padding: 15px 0;}
 
     .logo {
-      width: 45%;
+      width: 38%;
       padding: 0 17px ;
     }
     
     .company {
       width: 54%;
-      padding: 200px 0;
+      padding: 50px 0;
     }
     
     .description {padding: 50px 0 45px;}
@@ -843,7 +843,7 @@ footer {padding: 101px 0 53px 0;}
   /*=================================
     Header styling starts here
   =================================*/
-  .title {font-size: 12px;}
+  .title {font-size: 28px;}
 
   .navbar {padding: 15px 0;}
   
