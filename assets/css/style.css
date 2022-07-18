@@ -300,6 +300,8 @@ img { border-radius: 5px 5px 0 0;}
   width: 100%;
   border-radius: 5px ;
 }
+
+
 .gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5%;}
 
 
@@ -428,6 +430,7 @@ a { text-decoration: none;}
   font-size: 24px;
   content: '\f2ab';
 }
+
 
 
  /*=================================
@@ -697,15 +700,19 @@ footer {padding: 101px 0 53px 0;}
     /*=================================
       Header styling starts here
     =================================*/
-    .title {font-size: 12px;}
+    .title {font-size: 30px;}
 
     .navbar {padding: 15px 0;}
 
+    h3 {font-size: 24px;}
+
+    .info-title {font-size: 24px;}
     .logo {
       width: 45%;
-      padding: 0 17px ;
+      padding:15px 0 ;
     }
     
+    .menu {display: inline-block;}
     .company {
       width: 54%;
       padding: 200px 0;
@@ -789,7 +796,7 @@ footer {padding: 101px 0 53px 0;}
     /*=================================
       footer styling starts here
     =================================*/ 
-    footer {padding: 101px 0 53px 0; }
+    footer {padding: 25px 0; }
 
     .locations {
       width: 100%;
@@ -804,9 +811,15 @@ footer {padding: 101px 0 53px 0;}
       margin: 0 ;
     }
 
-    .country {padding: 0 0 24px 0;}
+    .country {
+      font-size: 20px;
+      padding: 0 0 24px 0;
+    }
 
-    .location {width: 100%;padding: 15px 0;}
+    .location {
+      width: 100%;
+      padding: 15px 0;
+    }
     
     
     .connect {
@@ -843,12 +856,12 @@ footer {padding: 101px 0 53px 0;}
   /*=================================
     Header styling starts here
   =================================*/
-  .title {font-size: 12px;}
+  .title {font-size: 24px;}
 
   .navbar {padding: 15px 0;}
   
   .logo {
-    width: 60%;
+    width: 30%;
     padding: 0 17px ;
   }
   
@@ -934,7 +947,7 @@ footer {padding: 101px 0 53px 0;}
   /*=================================
     footer styling starts here
   =================================*/ 
-  footer{padding: 101px 0 53px 0;}
+  footer {padding: 20px 0}
 
   .locations {
     width: 100%;
