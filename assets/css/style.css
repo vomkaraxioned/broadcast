@@ -700,11 +700,7 @@ footer {padding: 101px 0 53px 0;}
     /*=================================
       Header styling starts here
     =================================*/
-<<<<<<< HEAD
-    .title {font-size: 28px;}
-=======
     .title {font-size: 30px;}
->>>>>>> 261478cc5462dc64d8cda3a2e98638c27a649adf
 
     .navbar {padding: 15px 0;}
 
@@ -712,19 +708,14 @@ footer {padding: 101px 0 53px 0;}
 
     .info-title {font-size: 24px;}
     .logo {
-<<<<<<< HEAD
-      width: 38%;
-      padding: 0 17px ;
-=======
       width: 45%;
       padding:15px 0 ;
->>>>>>> 261478cc5462dc64d8cda3a2e98638c27a649adf
     }
     
     .menu {display: inline-block;}
     .company {
       width: 54%;
-      padding: 50px 0;
+      padding: 200px 0;
     }
     
     .description {padding: 50px 0 45px;}
@@ -865,8 +856,7 @@ footer {padding: 101px 0 53px 0;}
   /*=================================
     Header styling starts here
   =================================*/
-
-  .title {font-size: 28px}
+  .title {font-size: 24px;}
 
   .navbar {padding: 15px 0;}
   
