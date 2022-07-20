@@ -114,39 +114,53 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
+/*hero section start here */
 .hero-section {
   width: 100%;
   background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
 }
 
 .nav-items {
-  width: 30%;
+  width: 100%;
   display: inline-block;
+  text-align: right;
   overflow: hidden;
+}
+
+.nav-item {
+  margin-right: 4%;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .nav-item a {
   padding: 0 10%;
   margin: 0 20%;
-  display: inline-block;
   color: #fff;
   font-size: 12px;
   text-align: center;
 }
 
+.nav-item a:hover {color: #85109f;}
+
 .logo {
-  width: 65%;
   display: inline-block;
-  font-size: 14px;
+  padding-bottom:2px ;
+  margin-left:2% ;
 }
 
 .menu {  display: none;}
 
-.navbar {
-  padding: 15px 0;
+header {
+  padding: 12px 0;
   background-color: #101b32;
   color: #fff;
+}
+
+.navbar {
+  width: 80%;
+  display: inline-block;
 }
 
 .bold {
@@ -165,6 +179,7 @@ li {
 }
 
 .title {
+  display: inline-block;
   color: #e5e5e5;
   font-size: 46px;
   font-weight: 700;
@@ -246,6 +261,7 @@ img { border-radius: 5px 5px 0 0;}
 /*gallery start here*/
 .gallery {
   padding: 101px 0 92px 0;
+  display: flex;
   background-color: #273041;
 }
 
@@ -257,11 +273,12 @@ img { border-radius: 5px 5px 0 0;}
 
 .events {
   width:20% ;
-  padding: 0 0 100px 0;
+  /* padding: 0 0 121px 0; */
   margin: 0 1.9% 0 0;
-  display: inline-block;
+  display: block;
   overflow: hidden;
 }
+
 .gallery-items {
   width: 77%;
   display: inline-block;
@@ -288,21 +305,26 @@ img { border-radius: 5px 5px 0 0;}
   background-color: #85109f;
   color: #000;
 }
+
 .active {
   background-color: #85109f;
 }
+
 .gallery-item {
   width: 31%;
   margin: 0 0 31px 0;
   display: inline-block;
 }
+
+.gallery-item figure {width: 100%;}
+
 .gallery-item img {
   width: 100%;
   border-radius: 5px ;
 }
 
 
-.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5%;}
+.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5% 10px 2.5%;}
 
 
 
@@ -361,10 +383,11 @@ footer {
 .location {
   width: 100%;
   padding: 15px 0;
-  color: #1f262c;
-  font-size: 16px;
-  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
   box-shadow: 0 1px #1f262c;
+  text-transform: capitalize;
 }
 
 .copyright {
@@ -447,12 +470,9 @@ a { text-decoration: none;}
 =================================*/
 .hero-section {width: 100%;}
 
-.navbar {padding: 15px 0;}
+.navbar {width: 60%;}
 
-.logo {
-  width: 85%;
-  padding: 0 17px ;
-}
+.logo {padding: 0 17px ;}
 
 .company {
   width: 54%;
@@ -487,15 +507,14 @@ a { text-decoration: none;}
 
 /*gallery start here*/
 .gallery {padding: 101px 0 92px 0;}
+
 .gallery-description {padding: 40px 0 70px 0;}
 
 .events {
   width:20% ;
-  padding: 0 0 100px 0;
 }
 
-.gallery-items { width: 72%;
-}
+.gallery-items { width: 72%;}
 
 .events-type {
   width:100%;
@@ -503,9 +522,10 @@ a { text-decoration: none;}
   font-size: 12px;
 }
 
+.gallery-item figure {padding:0 ;}
+
 .gallery-item {
   width: 31%;
-  padding: 0 0 31px 0;
   display: inline-block;
 }
 
@@ -564,10 +584,10 @@ footer {padding: 101px 0 53px 0;}
   =================================*/
   .hero-section {width: 100%;}
 
-  .navbar {padding: 15px 0;}
+  .navbar {width: 70%;}
 
   .logo {
-    width: 60%;
+    width: 20%;
     padding: 0 17px ;
   }
   
@@ -606,21 +626,23 @@ footer {padding: 101px 0 53px 0;}
 
   .video1 {padding: 0 3% 0 0;}
 
-  .figcaption {padding: 45px 0;}
+  .figcaption {padding: 20px 0;}
 
   /*info ends here*/
   
   /*gallery start here*/
-  .gallery {padding: 51px 0 92px 0;}
+  .gallery {padding: 50px 0 50px 0;}
 
   .gallery-description { padding: 40px 0 70px 0;}
 
   .events {
     width:30% ;
-    padding: 0 2% 100px 0;
   }
 
+  .gallery-item {padding-bottom: 0;}
+
   .gallery-items { width: 60%;}
+
 
   .events-type{
     width:100%;
@@ -633,11 +655,11 @@ footer {padding: 101px 0 53px 0;}
     margin: 0;
   }
 
-  .gallery-item:nth-child(5) { padding: 0 4% 15px 0;}
+  .gallery-item:nth-child(odd) {padding-right: 2%;}
 
   .gallery-item {
     width: 45%;
-    padding: 0 4% 15px 0;
+    padding-bottom: px;
     display: inline-block;
   }
   
@@ -702,13 +724,15 @@ footer {padding: 101px 0 53px 0;}
     =================================*/
     .title {font-size: 30px;}
 
-    .navbar {padding: 15px 0;}
+    .navbar {text-align: right;}
 
     h3 {font-size: 24px;}
 
+    header {padding: 5px 0;}
     .info-title {font-size: 24px;}
+
     .logo {
-      width: 45%;
+      width: 25%;
       padding:15px 0 ;
     }
     
@@ -751,24 +775,26 @@ footer {padding: 101px 0 53px 0;}
     /*info ends here*/
     
     /*gallery start here*/
-    .gallery{padding: 51px 0 92px 0;}
+    .gallery{padding: 25px 0 25px 0; }
+
+    .gallery-viewer {flex-direction: column;}
 
     .gallery-description{padding: 40px 0 70px 0;}
 
     .events {
-      width:100% ;
-      padding: 0 2% 100px 0;
+      width: 100%;
+      padding-bottom:10px ;
     }
 
     .gallery-items {width: 100%;}
 
     .events-type {width:100%;}
 
-    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding:  0; }
+    .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding-bottom:30px ; }
 
     .gallery-item {
       width: 100%;
-      padding: 10px 0;
+      padding-bottom: 10px ;
       display: inline-block;
     }
   
@@ -839,11 +865,15 @@ footer {padding: 101px 0 53px 0;}
     }
 
     .menu {
+      border: transparent;
       display: inline-block;
+      background-color: transparent;
+      color: #fff;
+      font-size: 0;
     }
     
-    .menu::before {
-      margin: 0 2%;
+    .menu::after {
+      margin: 0 5%;
       font-family: 'FontAwesome';
       font-size: 20px;
       content: '\f0c9';
@@ -858,12 +888,9 @@ footer {padding: 101px 0 53px 0;}
   =================================*/
   .title {font-size: 24px;}
 
-  .navbar {padding: 15px 0;}
+  .navbar {text-align: right;}
   
-  .logo {
-    width: 30%;
-    padding: 0 17px ;
-  }
+  header {padding: 5px 0;}
   
   .company {
     width: 54%;
@@ -916,11 +943,11 @@ footer {padding: 101px 0 53px 0;}
 
   .gallery-item {
     width: 100%;
-    padding: 10px 0;
-    display: inline-block;
+    padding-bottom:10px ;
+    display: block;
   }
 
-  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 10px 0;}
+  .gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding-bottom: 30px ;}
 
   
   
@@ -938,7 +965,7 @@ footer {padding: 101px 0 53px 0;}
     
   }
 
-  .card:nth-child(2) {padding: 0;}
+  .card:nth-child(2) {padding:0 ;}
   /*popular end here*/
   /*=================================
     main styling ends here
