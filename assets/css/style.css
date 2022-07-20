@@ -372,10 +372,11 @@ footer {
 .location {
   width: 100%;
   padding: 15px 0;
-  color: #1f262c;
-  font-size: 16px;
-  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
   box-shadow: 0 1px #1f262c;
+  text-transform: capitalize;
 }
 
 .copyright {
@@ -765,11 +766,16 @@ footer {padding: 101px 0 53px 0;}
     /*info ends here*/
     
     /*gallery start here*/
-    .gallery{padding: 25px 0 25px 0;}
+    .gallery{padding: 25px 0 25px 0; }
+
+    .gallery-viewer {flex-direction: column;}
 
     .gallery-description{padding: 40px 0 70px 0;}
 
-    .events {flex:1 0 100%;}
+    .events {
+      width: 100%;
+      padding-bottom:10px ;
+    }
 
     .gallery-items {width: 100%;}
 
