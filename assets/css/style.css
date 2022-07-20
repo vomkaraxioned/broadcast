@@ -114,19 +114,21 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
+/*hero section start here */
 .hero-section {
   width: 100%;
   background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
 }
 
 .nav-items {
-  width: 30%;
   display: inline-block;
   overflow: hidden;
 }
 
-.nav-item {margin-right: 2%;}
+.nav-item {
+  width: 30%;
+  margin-right: 2%;
+}
 
 .nav-item a {
   padding: 0 10%;
@@ -140,18 +142,20 @@ li {
 .nav-item a:hover {color: #85109f;}
 
 .logo {
-  width: 65%;
+  width: 20%;
   display: inline-block;
   font-size: 14px;
 }
 
 .menu {  display: none;}
 
-.navbar {
-  padding: 15px 0;
+header {
+  padding: 10px 0;
   background-color: #101b32;
   color: #fff;
 }
+
+.navbar {display: inline-block;}
 
 .bold {
   font-size: 17px;
@@ -169,6 +173,7 @@ li {
 }
 
 .title {
+  display: inline-block;
   color: #e5e5e5;
   font-size: 46px;
   font-weight: 700;
@@ -651,7 +656,7 @@ footer {padding: 101px 0 53px 0;}
 
   .gallery-item {
     width: 45%;
-    padding-bottom: px;
+    padding-bottom:10px;
     display: inline-block;
   }
   
