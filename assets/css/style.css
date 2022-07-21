@@ -249,11 +249,12 @@ h3,.info-title {
 img { border-radius: 5px 5px 0 0;}
 
 .figcaption {
-  padding: 45px 0;
+  padding: 45px 8%;
   border-radius:0 0 5px 5px ;
   background-color: #303f49;
   color: #918d82;
-  text-align: center;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 /*info ends here*/
@@ -502,7 +503,8 @@ a { text-decoration: none;}
   display: inline-block;
 }
 .video1 {padding: 0 3% 0 0;}
-.figcaption {padding: 45px 0;}
+
+.figcaption {padding: 45px 8%;}
 /*info ends here*/
 
 /*gallery start here*/
@@ -626,7 +628,7 @@ footer {padding: 101px 0 53px 0;}
 
   .video1 {padding: 0 3% 0 0;}
 
-  .figcaption {padding: 20px 0;}
+  .figcaption {padding: 20px 5%;}
 
   /*info ends here*/
   
@@ -771,7 +773,7 @@ footer {padding: 101px 0 53px 0;}
       display: inline-block;
     }
 
-    .figcaption {padding: 45px 0;}
+    .figcaption {padding: 45px 5%;}
     /*info ends here*/
     
     /*gallery start here*/
@@ -925,7 +927,7 @@ footer {padding: 101px 0 53px 0;}
     display: inline-block;
   }
 
-  .figcaption { padding: 45px 0;}
+  .figcaption { padding: 45px 5%;}
   /*info ends here*/
   
   /*gallery start here*/
