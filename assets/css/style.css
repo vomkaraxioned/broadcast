@@ -107,7 +107,6 @@ li {
 
 .flex {
   display: flex;
-  justify-content: center;
 }
 
 .logo-img {
@@ -123,6 +122,8 @@ li {
   width: 100%;
   background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
 }
+
+.banner {text-align: center;}
 
 .nav-items {
   width: 100%;
@@ -149,16 +150,25 @@ li {
 .nav-item a:hover {border-bottom:1px solid #fff ;}
 
 .logo {
+  margin-left: 2%;
   display: inline-block;
 }
 
-.menu {  display: none;}
+.menu {  
+  padding-right:5% ;
+  display: none;
+}
 
 .navbar {
-  padding: 20px 0;
+  padding: 15px 0;
   display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: #101b32;
   color: #fff;
+  opacity: 0.8;
 }
 
 .bold {
@@ -173,6 +183,7 @@ li {
 .company {
   width: 54%;
   padding: 200px 0;
+  margin: 0 25% 0 25% ;
   text-align: center;
 }
 
@@ -208,7 +219,7 @@ li {
   main styling starts here
 =================================*/
 /*info start here*/
-.info {  background-color: #28364b;}
+.info {   background-image: radial-gradient(#0a161e,#2c3648);}
 
 .about {
   padding: 101px 0 65px 0;
@@ -219,6 +230,7 @@ h3,.info-title {
   color: #fff;
   font-size: 30px;
   font-weight: 600;
+  text-align: center;
 }
 
 .info-title {
@@ -258,9 +270,9 @@ img { border-radius: 5px 5px 0 0;}
 
 /*gallery start here*/
 .gallery {
-  padding: 101px 0 92px 0;
+  padding: 100px 0;
   display: flex;
-  background-color: #273041;
+  background-image: radial-gradient(#283041,#0a161e,#2c3648);
 }
 
 .gallery-description {
@@ -270,47 +282,43 @@ img { border-radius: 5px 5px 0 0;}
 }
 
 .events {
-  width:20% ;
-  /* padding: 0 0 121px 0; */
-  margin: 0 1.9% 0 0;
-  display: block;
+  width: 26%;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
+.events a {
+  width: 100%;
+  padding: 10px 5%;
+  border-radius: 5px ;
+  margin-bottom:8px;
+  background-color: #1d2a2f;
+  color: #918d82;
+  font-size: 15px;
+  text-align: left;
+}
+
 .gallery-items {
-  width: 77%;
+  width: 100%;
+  padding: 0 3%;
   display: inline-block;
   box-sizing:border-box;
 }
 
-.events-type {
-  width: 100%;
-  padding: 15px 0;
-  border-radius: 5px ;
-  margin: 0 0 6px 0;
-  background-color: #1d2a2f;
-  color: #918d82;
-  font-size: 15px;
-  text-align: justify;
-}
-
-.events-type a {
-  padding-left:3% ;
-  color: #918d82;
-}
-
 .events-type:hover {
   background-color: #85109f;
-  color: #000;
+  color: #fff;
 }
 
-.active {
+ .events .active {
   background-color: #85109f;
+  color: #fff;
 }
 
 .gallery-item {
   width: 31%;
-  margin: 0 0 31px 0;
+  margin-bottom:14px ;
   display: inline-block;
 }
 
@@ -322,7 +330,7 @@ img { border-radius: 5px 5px 0 0;}
 }
 
 
-.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 2.5% 10px 2.5%;}
+.gallery-item:nth-child(2),.gallery-item:nth-child(5) {padding: 0 3%}
 
 
 
@@ -331,7 +339,7 @@ img { border-radius: 5px 5px 0 0;}
 /*popular start here*/
 .popular {
   padding: 100px 0 92px 0;
-  background-color: #222831;
+  background-image: radial-gradient(#0a161e,#2c3648);
 }
 .popular-title {
   text-align: center;
@@ -468,10 +476,6 @@ a { text-decoration: none;}
 =================================*/
 .hero-section {width: 100%;}
 
-.navbar {width: 60%;}
-
-.logo {padding: 0 17px ;}
-
 .company {
   width: 54%;
   padding: 200px 0;
@@ -524,11 +528,12 @@ a { text-decoration: none;}
 .gallery-item figure {padding:0 ;}
 
 .gallery-item {
-  width: 31%;
+  width: 45%;
   display: inline-block;
 }
 
-
+.gallery-item:nth-child(2),.gallery-item:nth-child(5){padding: 0;}
+.gallery-item:nth-child(odd) {padding-right: 5%;}
 
 
 /*gallery ends here*/
@@ -583,12 +588,7 @@ footer {padding: 101px 0 53px 0;}
   =================================*/
   .hero-section {width: 100%;}
 
-  .navbar {width: 70%;}
-
-  .logo {
-    width: 20%;
-    padding: 0 17px ;
-  }
+  .logo { width: 20%;}
   
   .company {
     width: 54%;
@@ -634,9 +634,7 @@ footer {padding: 101px 0 53px 0;}
 
   .gallery-description { padding: 40px 0 70px 0;}
 
-  .events {
-    width:30% ;
-  }
+  .events {width:30% ;}
 
   .gallery-item {padding-bottom: 0;}
 
@@ -658,7 +656,6 @@ footer {padding: 101px 0 53px 0;}
 
   .gallery-item {
     width: 45%;
-    padding-bottom: px;
     display: inline-block;
   }
   
@@ -723,19 +720,19 @@ footer {padding: 101px 0 53px 0;}
     =================================*/
     .title {font-size: 30px;}
 
-    .navbar {text-align: right;}
+    /* .navbar {text-align: right;} */
 
     h3 {font-size: 24px;}
 
-    header {padding: 5px 0;}
     .info-title {font-size: 24px;}
 
     .logo {
-      width: 25%;
+      width: 20%;
       padding:15px 0 ;
     }
     
     .menu {display: inline-block;}
+
     .company {
       width: 54%;
       padding: 200px 0;
@@ -886,10 +883,6 @@ footer {padding: 101px 0 53px 0;}
     Header styling starts here
   =================================*/
   .title {font-size: 24px;}
-
-  .navbar {text-align: right;}
-  
-  header {padding: 5px 0;}
   
   .company {
     width: 54%;
