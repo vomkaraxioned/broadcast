@@ -219,7 +219,7 @@ li {
   main styling starts here
 =================================*/
 /*info start here*/
-.info {   background-image: radial-gradient(#0a161e,#2c3648);}
+.info { background-image: radial-gradient(circle at 100%,#2e3e55,#0c1f2d);}
 
 .about {
   padding: 101px 0 65px 0;
@@ -272,7 +272,7 @@ img { border-radius: 5px 5px 0 0;}
 .gallery {
   padding: 100px 0;
   display: flex;
-  background-image: radial-gradient(#283041,#0a161e,#2c3648);
+  background-image: radial-gradient(circle at 100%,#283543,#0a1922);
 }
 
 .gallery-description {
@@ -339,7 +339,7 @@ img { border-radius: 5px 5px 0 0;}
 /*popular start here*/
 .popular {
   padding: 100px 0 92px 0;
-  background-image: radial-gradient(#0a161e,#2c3648);
+  background-image: radial-gradient(circle at 100%,#2c313c,#091114);
 }
 .popular-title {
   text-align: center;
