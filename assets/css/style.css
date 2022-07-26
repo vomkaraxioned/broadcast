@@ -181,25 +181,27 @@ li {
 }
 
 .company {
-  width: 54%;
-  padding: 200px 0;
-  margin: 0 25% 0 25% ;
-  text-align: center;
+  width: 100%;
+  padding: 240px 0;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
 .title {
-  display: inline-block;
+  display: block;
   color: #e5e5e5;
-  font-size: 46px;
-  font-weight: 700;
+  font-size: 56px;
+  font-weight: 900;
   text-align: center;
 }
 
 .description {
-  padding: 50px 0 45px;
+  width: 54%;
+  padding: 30px 0;
   color: #b2b7bb;
-  font-size: 17px;
-  text-align: center;
+  font-size: 21px;
+  line-height: 1.4;
 }
 
 .hero-btn {
