@@ -191,27 +191,30 @@ li {
 .title {
   display: block;
   color: #e5e5e5;
-  font-size: 56px;
+  font-size: 60px;
   font-weight: 900;
   text-align: center;
 }
 
 .description {
   width: 54%;
-  padding: 30px 0;
+  padding: 30px 25% 35px 25%;
   color: #b2b7bb;
-  font-size: 21px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.8;
 }
 
 .hero-btn {
-  padding: 16px 7%;
-  border: 1px solid #737d87;
+  width: 13%;
+  padding: 16px 0;
+  margin: 0 43%;
+  border: 2px solid #737d87;
   border-radius: 3px;
   color:#fff;
   font-size: 17px;
+  font-weight: 900;
+  text-align: center;
 }
-
 
 /*=================================
   Header styling ends here
@@ -230,8 +233,8 @@ li {
 
 h3,.info-title {
   color: #fff;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -242,7 +245,7 @@ h3,.info-title {
 
 .info-description {
   color: #777670;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -256,7 +259,7 @@ h3,.info-title {
   font-size: 17px;
 }
 
-.video1 { padding: 0 3% 0 0;}
+.video1 { padding: 0 3.5% 0 0;}
 
 img { border-radius: 5px 5px 0 0;}
 
@@ -358,7 +361,7 @@ img { border-radius: 5px 5px 0 0;}
   display: inline-block;
   
 }
-.card:nth-child(2) {  padding: 0 2.9%;}
+.card:nth-child(2) {  padding: 0 3%;}
 
 /*popular end here*/
 /*=================================
@@ -380,12 +383,13 @@ footer {
 }
 
 .locations:nth-child(2) {margin: 0 3%;}
+
 .country {
   padding: 0 0 24px 0;
   border: none;
   color: #fff;
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .location {
@@ -406,6 +410,8 @@ footer {
 .copyright a {
   color: #fff;
 }
+
+.copyright a:hover { color: #000;}
 
 .connect {
   padding: 63px 0 10px 0;
@@ -430,9 +436,7 @@ a { text-decoration: none;}
   font-size: 0;
 }
 
-.twitter:hover,.facebook:hover,.insta:hover,.snapchat:hover {
-  color: #85109f;
-} 
+.connect .icon:hover::before {  color: #000;} 
 
 .twitter::before {
   color: #fff;
@@ -440,6 +444,7 @@ a { text-decoration: none;}
   font-size: 24px;
   content: '\f099';
 }
+
 
 .facebook::before {
   color: #fff;
