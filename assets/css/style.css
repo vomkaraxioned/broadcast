@@ -281,6 +281,8 @@ img { border-radius: 5px 5px 0 0;}
   background-image: radial-gradient(circle at 100%,#283543,#0a1922);
 }
 
+.gallery-title { text-align: left;}
+
 .gallery-description {
   padding: 40px 0 70px 0;
   color: #918d82;
