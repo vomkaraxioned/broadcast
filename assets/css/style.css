@@ -731,9 +731,9 @@ footer {padding: 101px 0 53px 0;}
 
     /* .navbar {text-align: right;} */
 
-    h3 {font-size: 24px;}
+    h3 { font-size: 24px;}
 
-    .info-title {font-size: 24px;}
+    .info-title { font-size: 24px;}
 
     .logo {
       width: 20%;
@@ -759,9 +759,9 @@ footer {padding: 101px 0 53px 0;}
     =================================*/
     /*info start here*/
 
-    .about {padding: 101px 0 65px 0;}
+    .about { padding: 101px 0 65px 0;}
 
-    .info-title {padding: 0 0 41px 0;}
+    .info-title { padding: 0 0 41px 0;}
     
     .videos {
       padding: 0 0 91px 0;
@@ -778,20 +778,20 @@ footer {padding: 101px 0 53px 0;}
     /*info ends here*/
     
     /*gallery start here*/
-    .gallery{padding: 25px 0 25px 0; }
+    .gallery{ padding: 25px 0 25px 0; }
 
-    .gallery-viewer {flex-direction: column;}
+    .gallery-viewer { flex-direction: column;}
 
-    .gallery-description{padding: 40px 0 70px 0;}
+    .gallery-description{ padding: 40px 0 70px 0;}
 
     .events {
       width: 100%;
       padding-bottom:10px ;
     }
 
-    .gallery-items {width: 100%;}
+    .gallery-items { width: 100%;}
 
-    .events-type {width:100%;}
+    .events-type { width:100%;}
 
     .gallery-item:nth-child(2),.gallery-item:nth-child(5) { padding-bottom:30px ; }
 
@@ -804,9 +804,9 @@ footer {padding: 101px 0 53px 0;}
     /*gallery ends here*/
     
     /*popular start here*/
-    .popular {padding: 100px 0 92px 0;}
+    .popular { padding: 100px 0 92px 0;}
     
-    .popular-description {padding: 31px 0 66px 0;}
+    .popular-description { padding: 31px 0 66px 0;}
 
     .card {
       width: 100%;
@@ -874,13 +874,14 @@ footer {padding: 101px 0 53px 0;}
       color: #fff;
       font-size: 0;
     }
-    
+
     .menu::after {
       margin: 0 5%;
       font-family: 'FontAwesome';
       font-size: 20px;
       content: '\f0c9';
     }
+
     }  
 
   /*media query for 320px starts here*/
