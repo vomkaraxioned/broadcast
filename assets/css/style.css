@@ -661,7 +661,7 @@ footer {padding: 101px 0 53px 0;}
     margin: 0;
   }
 
-  .gallery-item:nth-child(odd) {padding-right: 2%;}
+  .gallery-item:nth-child(odd) {padding-right: 7%;}
 
   .gallery-item {
     width: 45%;
@@ -927,7 +927,7 @@ footer {padding: 101px 0 53px 0;}
     display: inline-block;
   }
 
-  .figcaption { padding: 45px 5%;}
+  .figcaption { padding: 10px 5%;}
   /*info ends here*/
   
   /*gallery start here*/
