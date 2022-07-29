@@ -125,7 +125,10 @@ li {
 /*hero section start here */
 .hero-section {
   width: 100%;
-  background-image: url('https://via.placeholder.com/1366x650/85109f/808080?text=%7C%7C');
+  background-image: url('../images/banner.jpeg');
+  background-position: center;
+  background-size: cover;
+
 }
 
 .banner {text-align: center;}
@@ -437,7 +440,7 @@ footer {
   color: #fff;
 }
 
-.copyright a:hover { color: #000;}
+.copyright a:hover { color: #85109f;}
 
 .connect {
   padding: 63px 0 10px 0;
@@ -462,7 +465,7 @@ a { text-decoration: none;}
   font-size: 0;
 }
 
-.connect .icon:hover::before {  color: #000;} 
+.connect .icon:hover::before {  color: #85109f;} 
 
 .twitter::before {
   color: #fff;
@@ -507,7 +510,7 @@ a { text-decoration: none;}
 /*=================================
   Header styling starts here
 =================================*/
-.hero-section {width: 100%;}
+.hero-section { width: 100%;}
 
 .company {
   /* width: 54%; */
@@ -528,25 +531,25 @@ a { text-decoration: none;}
   main styling starts here
 =================================*/
 /*info start here*/
-.about {padding: 101px 0 65px 0;}
+.about { padding: 101px 0 65px 0;}
 
-.info-title {padding: 0 0 41px 0;}
+.info-title { padding: 0 0 41px 0;}
 
-.videos {padding: 0 0 91px 0;}
+.videos { padding: 0 0 91px 0;}
 
 .video1,.video2 {
   width:48%;
   display: inline-block;
 }
-.video1 {padding: 0 3% 0 0;}
+.video1 { padding: 0 3% 0 0;}
 
-.figcaption {padding: 20px 8%;}
+.figcaption { padding: 20px 8%;}
 /*info ends here*/
 
 /*gallery start here*/
-.gallery {padding: 101px 0 92px 0;}
+.gallery { padding: 101px 0 92px 0;}
 
-.gallery-description {padding: 40px 0 70px 0;}
+.gallery-description { padding: 40px 0 70px 0;}
 
 .events {
   width:20% ;
@@ -560,7 +563,7 @@ a { text-decoration: none;}
   font-size: 12px;
 }
 
-.gallery-item figure {padding:0 ;}
+.gallery-item figure { padding:0 ;}
 
 .gallery-item {
   width: 45%;
@@ -568,6 +571,7 @@ a { text-decoration: none;}
 }
 
 .gallery-item:nth-child(2),.gallery-item:nth-child(5){padding: 0;}
+
 .gallery-item:nth-child(odd) {padding-right: 5%;}
 
 
@@ -594,7 +598,7 @@ a { text-decoration: none;}
 /*=================================
   footer styling starts here
 =================================*/ 
-footer {padding: 101px 0 53px 0;}
+footer { padding: 101px 0 53px 0;}
 
 .locations {
   width: 31%;
@@ -602,12 +606,12 @@ footer {padding: 101px 0 53px 0;}
 }
 .locations:nth-child(2) {margin: 0 2.8%;}
 
-.country {padding: 0 0 24px 0;}
+.country { padding: 0 0 24px 0;}
 
-.location {width: 100%;padding: 15px 0;}
+.location { width: 100%;padding: 15px 0;}
 
 
-.connect {padding: 63px 0 10px 0;}
+.connect { padding: 63px 0 10px 0;}
 
 .connect a {
   margin:0 .9%;
